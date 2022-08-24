@@ -11,11 +11,15 @@ body {
 main.container {
     /* giv background width heigh,
     padding and center it horizontally */
-   
+    width: 60%;
+    height: 25vh;
+    /* padding: 50px; */
+    margin: auto;
 
     /* what is this doing? */
     overflow-y: scroll;
 }
+
 .sticky-section {
     margin-top: 10px;
     border-bottom: solid;
@@ -25,9 +29,12 @@ main.container {
     background-color: aqua;
     height: 50px;
     /* make it sticky, and you need to define top: */
+    position: sticky;
+    top: 0;
 }
 
 ul {
     /* how to remove the discs from style? */
     margin: 10px 0 10px 10px;
+    list-style: none;
 }
